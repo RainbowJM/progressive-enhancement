@@ -1,0 +1,11 @@
+/* ********* */
+/* Css Reset */
+/* ********* */
+
+*, *::after, *::before {
+   box-sizing:border-box;  
+ }
+ 
+ button:not([disabled]), summary {
+    cursor:pointer;
+ }
