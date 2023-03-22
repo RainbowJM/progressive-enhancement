@@ -1,0 +1,9 @@
+p, ul {
+    margin-bottom: 2em;
+}
+
+img {
+    object-fit: contain;
+    width: 100%;
+    margin-bottom: 2em;
+}
