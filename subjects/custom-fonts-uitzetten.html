@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Subject</title>
+   <title>2. Custom fonts</title>
 
    <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -13,8 +13,66 @@
 <body>
 
    <header>
-      <h1>Onderwerp 2</h1>
+      <h1>2. Custom fonts</h1>
    </header>
+
+   <main>
+
+      <section>
+
+         <section>
+            <figure>
+               <img src="../assets/imgs/menno/fontstyle.png" alt="">
+            </figure>
+         </section>
+
+         <!-- Vraag 1 -->
+         <section>
+            <h2>1. Problemen die deze features kunnen veroorzaken</h2>
+
+            <ul>
+               <li>- Traag laden van de website</li>
+               <li>- Site kan zonder text komen te zitten door slechte fallbacks</li>
+               <li>- fallback font kan niet lijken op de custom font</li>
+            </ul>
+         </section>
+
+
+         <!-- Vraag 2 -->
+         <section>
+            <h2>2. Hoe zou je dit kunnen testen</h2>
+
+            <ul>
+               <li>- Development tools van de browser kijken in hoevere het de perfomance beinvloed</li>
+               <li>- Met inspector de CSS class uitzetten om te kijken wat de fallback is.</li>
+               <li>- Custom fonts helemaal uitzetten</li>
+            </ul>
+         </section>
+
+
+         <section class="oplossing">
+            <h2>4. Hoe kunnen wij dit oplossen</h2>
+            <ul>
+               <li>- Een (gedeeltelijke) oplossing is het kiezen het juiste formaat van je font, zo is een .WOFF2 bestand gemiddeld al 75% kleiner dan een 
+                  origineel .TTF bestand. </li>
+                  <li>- @font-face gebruiken om fonts gedeeltelijk te pre-loaden.</li>
+                  <li>- Zorg dat je een fallback lijkt op de font die je wilt gebruiken</li>
+               </ul>
+         </section>
+
+
+      </section>
+
+   </main>
+
+   <footer>
+      <ol>
+         <li><a href="https://nitropack.io/blog/post/font-loading-optimization">Bron 1</a></li>
+         <li><a href="https://www.wholegraindigital.com/blog/performant-web-fonts/">Bron 2</a></li>
+         <li><a href="https://www.freecodecamp.org/news/web-fonts-in-2018-f191a48367e8/">Bron 3</a></li>
+      </ol>
+   </footer>
+
 
 </body>
 
