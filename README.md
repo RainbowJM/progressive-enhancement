@@ -13,7 +13,7 @@ Let's dive in the world of Progressive enhancement with web
 De awesome draai deur.
 
 ## Result
-rainbowjm.github.io/progressive-enhancement/
+[Demo](rainbowjm.github.io/progressive-enhancement/)
 
 ## Break the web
 
