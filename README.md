@@ -5,13 +5,15 @@
 - [Metaphor](#metaphor)
 - [Result](#result)
 - [Break the web](#break-the-web)
-- [Source](#source)
 ---
 ## General
+Let's dive in the world of Progressive enhancement with web
 
 ## Metaphor
+De awesome draai deur.
 
 ## Result
+rainbowjm.github.io/progressive-enhancement/
 
 ## Break the web
 
@@ -39,4 +41,3 @@ Menno
 ### 8. Content blockers en adblockers. Wat blokkeren ze precies?
 Nigel
 
-## Source
