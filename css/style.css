@@ -276,6 +276,12 @@ main > section > section ul li {
 
    font-style: normal;
    font-weight: 500;
+
+   max-width: 85rem;
+}
+
+main > section > section:nth-of-type(5) p {
+   padding-bottom: var(--M-spacer);
 }
 
 /* Manier van antwoorden, met beschrijving */
